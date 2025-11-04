@@ -24,7 +24,7 @@ def list_files(base_dir):
 def main():
     global IGN_ARQ
     
-    IGN_ARQ=[os.path.basename(__file__),'key.key','discovery.py','dec.py']
+    IGN_ARQ=[os.path.basename(__file__),'key.key','discovery.py','decrypt.py']
     
     if len(sys.argv) > 1:
         dir = sys.argv[1]
